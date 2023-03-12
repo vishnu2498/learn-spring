@@ -19,4 +19,5 @@ public class CourseController {
                 new Course(2, "God delusion", "Richard Dawkins"),
                 new Course(3, "Learn Azure", "Azure"));
     }
+
 }

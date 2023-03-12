@@ -1,0 +1,9 @@
+logging:
+  level:
+    org:
+      springframework: info
+
+currency-service:
+  url: http://www.prodsomething.com
+  username: vishnu2424
+  key: name

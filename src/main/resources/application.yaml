@@ -1,4 +1,13 @@
 logging:
   level:
     org:
-      springframework: info
+      springframework: debug
+
+currency-service:
+  url: http://www.something.com
+  username: vishnu2424
+  key: name
+
+spring:
+  profiles:
+    active: prod

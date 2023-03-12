@@ -1,0 +1,19 @@
+logging levels
+--------------
+trace
+debug
+info
+warning
+error
+off
+
+Different profiles
+------------------
+
+you can set the active profiles in app.yaml - to any env
+this can also be done the config maps in kubernetes
+
+common properties should be configured in application.yaml
+based on the env profile - intersecting properties would be overridden
+
+

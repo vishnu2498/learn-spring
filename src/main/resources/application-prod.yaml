@@ -7,3 +7,9 @@ currency-service:
   url: http://www.prodsomething.com
   username: vishnu2424
   key: name
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,metrics
